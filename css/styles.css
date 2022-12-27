@@ -105,3 +105,32 @@ h1{
     font-size: 14px;
     line-height: 1.14;
 }
+.section-nav{
+    background-color:var(--light-color);
+    list-style: none;
+    text-decoration: none;
+}
+.section-motto{
+    background-color:var(--footer-color);
+}
+.section-lorem{
+    list-style: none;
+}
+.section-pictures{
+    list-style: none;
+}
+.section-team{
+    background-color: var(--button-color);
+    list-style: none;
+}
+.section-footer{
+    background-color:var(--footer-color);
+    text-decoration: none;
+
+}
+.section-button{
+    list-style: none;
+}
+.section-cards{
+    list-style: none;
+}
