@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+  <head class="container">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <title>Studio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -14,63 +15,70 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Studio</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header class="section-nav">
-      <nav>
+  <body class="container">
+    <header>
+      <nav class="section-nav">
         <ul>
-          <li>
-            <a class="fontweight-700 logo" href="./index.html"
-              ><span class="web">Web</span>Studio</a
-            >
-          </li>
-          <li>
-            <a class="fontweight-500 nav-link" href="html://agencja.pl"
-              >Agencja</a
-            >
-          </li>
-          <li>
-            <a class="fontweight-500 nav-link" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="fontweight-500 nav-link" href="html://kontakt.pl"
-              >Kontakt</a
-            >
-          </li>
+          <div class="section-logo">
+            <li>
+              <a class="fontweight-700 logo" href="./index.html"
+                ><span class="web">Web</span>Studio</a
+              >
+            </li>
+          </div>
+          <div class="section-navlinks">
+            <li>
+              <a class="fontweight-500 nav-link" href="html://agencja.pl"
+                >Agencja</a
+              >
+            </li>
+            <li>
+              <a class="fontweight-500 nav-link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="fontweight-500 nav-link" href="html://kontakt.pl"
+                >Kontakt</a
+              >
+            </li>
+          </div>
+          <div class="section-navcontacts">
+            <li>
+              <a
+                class="fontweight-500 nav-link mail"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="fontweight-500 nav-link telefon" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </div>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a
-            class="fontweight-500 nav-link mail"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="fontweight-500 nav-link telefon" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
     </header>
-    <main>
+    <main class="container">
       <div class="section-motto">
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <p>
-        <button class="button-service fontweight-700" type="button">
-          Zamów usługę
-        </button>
-      </p>
+        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <p>
+          <button class="button-service fontweight-700" type="button">
+            Zamów usługę
+          </button>
+        </p>
       </div>
-      <section class="section-lorem">
-        <ul>
-          <li><h2 class="section-heading fontweight-700">Lorem ipsum</h2></li>
-          <li class="section-text">
+      <section>
+        <ul class="section-lorem">
+          <li>
+            <h2 class="section-heading fontweight-700 lorem-title">
+              Lorem ipsum
+            </h2>
+          </li>
+          <li class="section-text lorem-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
@@ -91,9 +99,9 @@
           </li>
         </ul>
       </section>
-      <section class="section-pictures">
+      <section>
         <h2 class="section-header fontweight-700">Czym się zajmujemy</h2>
-        <ul>
+        <ul class="section-pictures">
           <li>
             <img
               src="images/picture1.jpg"
@@ -120,9 +128,9 @@
           </li>
         </ul>
       </section>
-      <section class="section-team">
+      <section>
         <h2 class="section-header fontweight-700">Nasz zespół</h2>
-        <ul>
+        <ul class="section-team">
           <li>
             <figure>
               <img
@@ -182,7 +190,7 @@
         </ul>
       </section>
     </main>
-    <footer class="section-footer">
+    <footer class="container section-footer">
       <a class="fontweight-700 logo" href="./index.html"
         ><span class="web">Web</span>Studio</a
       >
