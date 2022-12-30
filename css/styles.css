@@ -71,6 +71,7 @@ button:hover, button:focus{
     font-family: "Raleway", "sans-serif";
     line-height: 1.19;
     text-decoration: none;
+    padding-left: 40px;
 }
 footer{
     background-color: var(--footer-color);
@@ -101,10 +102,9 @@ h1{
     line-height: 1.36;
     font-weight: 900;
     padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
+    padding-left: 300px;
+    padding-right: 300px;
     text-align: center;
-word-wrap: break-word;
     
 }
 .button-service{
@@ -116,35 +116,29 @@ word-wrap: break-word;
     border-radius: 4px;
     border: #2196f3;
     margin-top: 30px;
-    margin-bottom: 200px;
-    margin-left: 700px;
-    margin-right: 700px;
     width:200px;
     height: 50px;
-    padding-left: 41px;
-    padding-top: 10px;
-    padding-right: 42px;
-    padding-bottom: 10px;
+    align-items: center;
+    margin-bottom: 210px;
+    margin-left: 500px;
+    
 
 }
 .section-header{
     font-size: 36px;
     line-height: 1.17;
     flex-wrap: nowrap;
-    text-align: justify;
-    padding-left: 624px;
+    text-align: center;
     padding-top:94px;
 }
 .section-header02{
     font-size: 36px;
     line-height: 1.17;
     flex-wrap: nowrap;
-    text-align: justify;
-    padding-left: 695px;
+    text-align: center;
     padding-top: 94px;
     background-color: var(--button-color);
     margin:auto;
-    width: 1600px;
 }
 .section-heading{
     line-height: 1.14;
@@ -220,22 +214,24 @@ text-decoration: none;
     width: 1200px;
 }
 .section-nav{
-    width: 1600px;
     border: 1px solid var(--color-two);
-    padding-right: 227px;
-    padding-left: 215px;
+    justify-content: space-between;
+}
+.navigation{
+    display: inline-flex;
+    align-content: space-between;
+    align-items: center;
 }
 .section-navlinks{
     display: inline-flex;
     list-style: none;
     color: var(--main-color);
-    justify-content: space-between;
-    align-items: center;
+    padding-left: 15px;
     gap:46px;
-    margin-left: 93px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+        margin-left: 93px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
 .section-logo{
     display: inline-flex;
     list-style: none;
@@ -246,31 +242,25 @@ text-decoration: none;
 .section-navcontacts{
     display: inline-flex;
     list-style: none;
-gap:50px;
-margin-left: 320px;
-padding-top: 32px;
-padding-bottom: 32px;
-color: var(--contact-color);}
+    color: var(--contact-color);
+gap:46px;
+padding-left: 200px;}
 
 .section-motto{
     background-color: var(--footer-color);
-    width: 1600px;
     margin-top: 0px;
     }
 .section-lorem{
     display:flex;
     list-style: none;
-    width: 1600px;
     padding-top: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 40px;
     }
     .section-text{
         margin-top: 10px;
     }
 .section-pictures{
     display: inline-flex;
-    width: 1600px;
     list-style: none;
     justify-content: center;
     padding-bottom: 94px;
@@ -281,31 +271,27 @@ color: var(--contact-color);}
 .section-team{
     display: inline-flex;
     list-style: none;
-    width: 1600px;
     background-color: var(--button-color);
     padding-top: 50px;
-    padding-left: 215px;
+    padding-left: 15px;
     padding-bottom: 94px;
 
 }
 .section-footer{
-    width: 1600px;
     text-decoration: none;
     padding-top: 60px;
 }
 .logo-footer{
     padding-top:60px;
-    padding-left: 215px;
+    padding-left: 40px;
 
 }
 .section-buttons{
-    width: 1600px;
     display: inline-flex;
     list-style: none;
     justify-content: center;
 }
 .section-cards{
-    width: 1600px;
     display:flex;
     list-style: none;
     justify-content: center;
@@ -314,8 +300,8 @@ color: var(--contact-color);}
     row-gap: 30px;
     padding-bottom: 94px;
     margin-top: 56px;
-    padding-left: 215px;
 }
+
 .buttons{
     border-radius: 4px;
     border-color: var(--button-color);
@@ -337,15 +323,8 @@ color: var(--contact-color);}
     
 }
 .lorem-text01{
-    padding-left: 215px;
     padding-top: 94px;
     margin-top: 10px;
-}
-item1{
-    flex-grow: 1;
-}
-item3{
-    flex-grow:2;
 }
 .buttons{
     font-size: 16px;
@@ -398,7 +377,7 @@ item3{
     flex-basis: calc((100% - (2 * 30px)) / 3);
 }
 .address-footer{
-    padding-left: 215px;
+    padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 80px;
     text-decoration: none;
@@ -417,7 +396,6 @@ item3{
     border-color: rgba(0,0,0,0.12);
     width: 270px;
     height: 368px;
-    margin-right: 30px;
     background-color:var(--light-color);
 }
 .box-picture{
@@ -430,5 +408,8 @@ margin-top: 20px;
     margin-top: 9px;
     color: var(--footer-address);
 }
-
+.tekstowa-klasa{
+    display: flex;
+    justify-content: center;
+}
 
