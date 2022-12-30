@@ -28,7 +28,11 @@
     font-weight: 700;
 }
 header{
+    margin: 0 auto;
     background-color:var(--light-color);
+}
+main{
+    margin: 0 auto;
 }
 .nav-link:hover, .nav-link:focus{
     color:var(--blue-color);
@@ -74,6 +78,7 @@ button:hover, button:focus{
     padding-left: 40px;
 }
 footer{
+    margin: 0 auto;
     background-color: var(--footer-color);
 }
 address{
@@ -296,7 +301,6 @@ padding-left: 200px;}
     list-style: none;
     justify-content: center;
     flex-wrap: wrap;
-    column-gap: 30px;
     row-gap: 30px;
     padding-bottom: 94px;
     margin-top: 56px;
@@ -412,4 +416,6 @@ margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-
+.sort{
+    margin:0 auto;
+}
